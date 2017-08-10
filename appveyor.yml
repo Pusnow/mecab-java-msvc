@@ -18,8 +18,8 @@ build_script:
     - link.exe /nologo /OPT:REF /OPT:ICF /LTCG /NXCOMPAT /DYNAMICBASE /MACHINE:%ARCH%  ADVAPI32.LIB -out:MeCab.dll msvcrt.lib oldnames.lib kernel32.lib advapi32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib C:\mecab\libmecab.lib MeCab_wrap.obj /dll
 
 after_build:
-    - 7z a mecab-java-msvc-%BUILD_TYPE%.zip %APPVEYOR_BUILD_FOLDER%\MeCab.dll
-    - 7z a mecab-java-msvc-%BUILD_TYPE%.zip %APPVEYOR_BUILD_FOLDER%\org\
+    - 7z a mecab-java-msvc-%ARCH%.zip %APPVEYOR_BUILD_FOLDER%\MeCab.dll
+    - 7z a mecab-java-msvc-%ARCH%.zip %APPVEYOR_BUILD_FOLDER%\org\
 
 artifacts: 
   - path: '*.zip'
