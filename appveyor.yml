@@ -19,7 +19,7 @@ build_script:
 
 after_build:
     - 7z a mecab-java-msvc-%BUILD_TYPE%.zip %APPVEYOR_BUILD_FOLDER%\MeCab.dll
-    - 7z a mecab-java-msvc-%BUILD_TYPE%.zip %APPVEYOR_BUILD_FOLDER%org\
+    - 7z a mecab-java-msvc-%BUILD_TYPE%.zip %APPVEYOR_BUILD_FOLDER%\org\
 
 artifacts: 
   - path: '*.zip'
