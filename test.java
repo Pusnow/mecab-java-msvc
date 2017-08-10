@@ -17,7 +17,7 @@ public class test {
   public static void main(String[] argv) {
      System.out.println(MeCab.VERSION);
      Tagger tagger = new Tagger();
-     String str = "太郎は二郎にこの本を渡した。";
+     String str = "무궁화꽃이피었습니다.";
      System.out.println(tagger.parse(str));
      Node node = tagger.parseToNode(str);
      for (;node != null; node = node.getNext()) {
