@@ -22,7 +22,7 @@ after_build:
     - 7z a mecab-java-msvc-%ARCH%.zip %APPVEYOR_BUILD_FOLDER%\org\
 
 artifacts: 
-  - path: '*.zip'
+  - path: 'mecab-ko-msvc-*.zip'
     name: MeCab-Java-MSVC
 deploy:
   description: 'MeCab-Java-MSVC'
