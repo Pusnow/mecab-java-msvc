@@ -22,7 +22,11 @@ mecab-java-msvc는 mecab-ko-msvc에서 사용할 수 있는 mecab-java을 빌드
 * 빌드 과정은 [Appveyor 페이지](https://ci.appveyor.com/project/Pusnow/mecab-java-msvc) 에 기록되어 있습니다.
 * 개인적으로 빌드를 하고 싶으신 분은 [appveyor.yml](https://github.com/Pusnow/mecab-java-msvc/blob/master/appveyor.yml) 을 참고하시기 바랍니다.
 
+## 관련 프로젝트
 
+* [Mecab-Ko-MSVC](https://github.com/Pusnow/mecab-ko-msvc)
+* [Mecab-Ko-MSVC](https://github.com/Pusnow/mecab-ko-msvc)
+* [Mecab-Python-MSVC](https://github.com/Pusnow/mecab-python-msvc)
 
 [mecab-java](https://code.google.com/p/mecab/downloads/detail?name=mecab-java-0.996.tar.gz&can=2&q=) 의 tagger와 lexicon의 메모리 누수가 해결된 버전
 
