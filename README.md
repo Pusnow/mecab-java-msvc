@@ -25,7 +25,7 @@ mecab-java-msvc는 mecab-ko-msvc에서 사용할 수 있는 mecab-java을 빌드
 ## 관련 프로젝트
 
 * [Mecab-Ko-MSVC](https://github.com/Pusnow/mecab-ko-msvc)
-* [Mecab-Ko-MSVC](https://github.com/Pusnow/mecab-ko-msvc)
+* [Mecab-Ko-Dic-MSVC](https://github.com/Pusnow/mecab-ko-dic-msvc)
 * [Mecab-Python-MSVC](https://github.com/Pusnow/mecab-python-msvc)
 
 [mecab-java](https://code.google.com/p/mecab/downloads/detail?name=mecab-java-0.996.tar.gz&can=2&q=) 의 tagger와 lexicon의 메모리 누수가 해결된 버전
