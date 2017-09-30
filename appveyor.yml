@@ -15,7 +15,7 @@ before_build:
 build_script:
     - call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" %ARCH%
     - cl.exe /EHsc /O2 /GL /GA /Ob2 /nologo /W3 /MT /Zi /wd4800 /wd4305 /wd4244 -I"%JDK%\include" -I"%JDK%\include\win32" -I"C:\mecab" -c MeCab_wrap.cxx 
-    - link.exe /nologo /OPT:REF /OPT:ICF /LTCG /NXCOMPAT /DYNAMICBASE /MACHINE:%ARCH%  ADVAPI32.LIB -out:MeCab.dll C:\mecab\libmecab.lib MeCab_wrap.obj /dll
+    - link.exe /nologo /OPT:REF /OPT:ICF /LTCG /NXCOMPAT /DYNAMICBASE /MACHINE:%ARCH% -out:MeCab.dll C:\mecab\libmecab.lib MeCab_wrap.obj /dll
 
 after_build:
     - 7z a mecab-java-msvc-%ARCH%.zip %APPVEYOR_BUILD_FOLDER%\MeCab.dll
