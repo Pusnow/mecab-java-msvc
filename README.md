@@ -8,6 +8,7 @@ mecab-java-msvc는 mecab-ko-msvc에서 사용할 수 있는 mecab-java을 빌드
 
 * [mecab-ko-msvc](https://github.com/Pusnow/mecab-ko-msvc/)를 설치하지 않았으면 설치해야 합니다.
 * [mecab-ko-dic-msvc](https://github.com/Pusnow/mecab-ko-dic-msvc/)를 설치하지 않았으면 설치해야 합니다.
+* `C:mecab`을 PATH 환경변수에 추가합니다.
 * 실행 환경에 맞는 [최신버전](https://github.com/Pusnow/mecab-java-msvc/releases/latest)을 다운로드합니다. JDK 1.8을 지원합니다.
 
 ## 사용 정보
