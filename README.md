@@ -1,6 +1,6 @@
 # mecab-java-msvc
 
-[![Build status](https://ci.appveyor.com/api/projects/status/bxtc772o72obpkvb/branch/master?svg=true)](https://ci.appveyor.com/project/Pusnow/mecab-java-msvc/branch/master)
+[![Build](https://github.com/Pusnow/mecab-java-msvc/actions/workflows/build-java-lib.yml/badge.svg)](https://github.com/Pusnow/mecab-java-msvc/actions/workflows/build-java-lib.yml)
 
 mecab-java-msvc는 mecab-ko-msvc에서 사용할 수 있는 mecab-java을 빌드하는 프로젝트입니다.
 
